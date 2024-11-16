@@ -1,0 +1,86 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2'); 
+  }
+
+  :root {
+    --color-primary-white: #FFFFFF;
+    --color-primary-blue: #2B7FFF;
+    --color-primary-dark: #011C44;
+  }
+  
+.header {
+}
+
+.header_logo{
+    columns: var(--color-primary-blue);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* nav .header_nav a {
+    text-decoration: none;
+}
+
+.header_nav {
+    font-size: 18px;
+    color: var(--color-primary-dark);
+    text-decoration: none;
+} */
+.header_icons {text-decoration: none;
+    text-decoration: none;
+}
+
+/* .header_link{
+    text-decoration: none;
+    color: var(--color-primary-dark);
+} */
+/* a {
+    font-size: 18px;
+    color: var(--color-primary-dark);
+    text-decoration: none;
+}
+
+a :hover {
+    cursor: pointer;
+    color: var(--color-primary-blue);
+    font-weight: bold;
+} */
+
+.link {
+    font-size: 18px;
+    color: var(--color-primary-dark);
+    text-decoration: none;
+}
+
+.link :hover{
+    cursor: pointer;
+    color: var(--color-primary-blue);
+    font-weight: bold;
+}
